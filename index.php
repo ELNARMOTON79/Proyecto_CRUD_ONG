@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edu4All Index</title>
+    <title>Edu 4 All</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,8 @@
     <?php include 'navbar.php'; ?>
 
     <div class="flex-grow"></div>
+    <?php include 'footer.php'; ?>
 
-    <?include 'footer.php'; ?>
 </body>
 
 </html>
