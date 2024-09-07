@@ -9,7 +9,6 @@
 <body class="bg-cover bg-center h-screen" style="background-image: url('SRC/fondo.jpg');">
   <div class="flex items-center justify-center h-full">
     <div class="relative bg-white bg-opacity-90 p-8 rounded-lg shadow-md max-w-md w-full">
-      <!-- Botón de cierre -->
       <a href="index.php" class="absolute top-0 right-0 mt-2 mr-2 text-gray-600 hover:text-gray-800">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -31,8 +30,8 @@
           <input type="email" name="email" id="email" required class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
         </div>
         <div>
-          <label for="phone" class="block text-sm font-medium text-green-600">Phone:</label>
-          <input type="tel" name="phone" id="phone" required class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
+          <label for="password" class="block text-sm font-medium text-green-600">Password:</label>
+          <input type="password" name="password" id="password" required class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500">
         </div>
         <div>
           <label for="gender" class="block text-sm font-medium text-green-600">Gender:</label>
